@@ -1,0 +1,112 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="alberghi">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="albergo" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="comune"/>
+              <xs:element type="xs:string" name="provincia"/>
+              <xs:element type="xs:string" name="categoria"/>
+              <xs:element type="xs:string" name="tipologia"/>
+              <xs:element type="xs:string" name="denominazione"/>
+              <xs:element type="xs:string" name="localita"/>
+              <xs:element type="xs:string" name="frazione"/>
+              <xs:element type="xs:string" name="indirizzo"/>
+              <xs:element type="xs:string" name="cap"/>
+              <xs:element type="xs:string" name="telefono"/>
+              <xs:element type="xs:string" name="cellulare"/>
+              <xs:element type="xs:string" name="fax"/>
+              <xs:element type="xs:string" name="indirizzo_posta_elettronica"/>
+              <xs:element type="xs:string" name="sito_internet"/>
+              <xs:element type="xs:integer" name="camere"/>
+              <xs:element type="xs:integer" name="posti_letto"/>
+              <xs:element type="xs:integer" name="bagni"/>
+              <xs:element type="xs:string" name="periodo_apertura"/>
+              <xs:element type="xs:string" name="centro_abitato"/>
+              <xs:element type="xs:string" name="zona_aereoporto"/>
+              <xs:element type="xs:string" name="zona_stazione_ffss"/>
+              <xs:element type="xs:string" name="in_campagna"/>
+              <xs:element type="xs:string" name="sul_mare"/>
+              <xs:element type="xs:string" name="sul_lago"/>
+              <xs:element type="xs:string" name="sul_fiume"/>
+              <xs:element type="xs:string" name="zona_impianti_risalita"/>
+              <xs:element type="xs:string" name="interesse_storico"/>
+              <xs:element type="xs:string" name="villa"/>
+              <xs:element type="xs:string" name="castello"/>
+              <xs:element type="xs:string" name="accessibile"/>
+              <xs:element type="xs:string" name="ascensore"/>
+              <xs:element type="xs:string" name="ristorante"/>
+              <xs:element type="xs:string" name="ristorante_convenzionato"/>
+              <xs:element type="xs:string" name="ristorante_vegetariano"/>
+              <xs:element type="xs:string" name="tavola_calda"/>
+              <xs:element type="xs:string" name="bar"/>
+              <xs:element type="xs:string" name="giochi_bambini"/>
+              <xs:element type="xs:string" name="sala_lettura"/>
+              <xs:element type="xs:string" name="sala_tv"/>
+              <xs:element type="xs:string" name="sala_tv_comune"/>
+              <xs:element type="xs:string" name="parco_giardino"/>
+              <xs:element type="xs:string" name="animali_domestici"/>
+              <xs:element type="xs:string" name="servizio_congressi"/>
+              <xs:element type="xs:integer" name="servizio_congressi_min"/>
+              <xs:element type="xs:integer" name="servizio_congressi_max"/>
+              <xs:element type="xs:string" name="accettazione_gruppi"/>
+              <xs:element type="xs:string" name="accesso_mezzi_pubblici"/>
+              <xs:element type="xs:string" name="accesso_mezzi_privati"/>
+              <xs:element type="xs:string" name="parcheggio_non_custodito"/>
+              <xs:element type="xs:string" name="garage"/>
+              <xs:element type="xs:string" name="trasporto_clienti"/>
+              <xs:element type="xs:string" name="pulizia_calzature"/>
+              <xs:element type="xs:string" name="lavatura_stiratura"/>
+              <xs:element type="xs:string" name="baby_sitting"/>
+              <xs:element type="xs:string" name="altri_impianti_servizi"/>
+              <xs:element type="xs:string" name="custodia_valori_cassaforte"/>
+              <xs:element type="xs:string" name="custodia_valori_cassetta_sicurezza"/>
+              <xs:element type="xs:string" name="vasca_idromassaggio"/>
+              <xs:element type="xs:string" name="doccia_idromassaggio"/>
+              <xs:element type="xs:string" name="doccia_sauna"/>
+              <xs:element type="xs:string" name="sauna_privata"/>
+              <xs:element type="xs:string" name="palestra"/>
+              <xs:element type="xs:string" name="impianti_termali"/>
+              <xs:element type="xs:string" name="centro_benessere"/>
+              <xs:element type="xs:string" name="spiaggia_riservata"/>
+              <xs:element type="xs:string" name="discoteca"/>
+              <xs:element type="xs:string" name="postazioni_internet"/>
+              <xs:element type="xs:string" name="tv_satellitare"/>
+              <xs:element type="xs:string" name="aria_condizionata"/>
+              <xs:element type="xs:string" name="lingua_inglese"/>
+              <xs:element type="xs:string" name="lingua_francese"/>
+              <xs:element type="xs:string" name="lingua_spagnola"/>
+              <xs:element type="xs:string" name="lingua_tedesca"/>
+              <xs:element type="xs:string" name="altre_lingue"/>
+              <xs:element type="xs:string" name="tennis"/>
+              <xs:element type="xs:string" name="piscina_coperta"/>
+              <xs:element type="xs:string" name="piscina_scoperta"/>
+              <xs:element type="xs:string" name="golf"/>
+              <xs:element type="xs:string" name="equitazione"/>
+              <xs:element type="xs:string" name="vela"/>
+              <xs:element type="xs:string" name="windsurf"/>
+              <xs:element type="xs:string" name="sub"/>
+              <xs:element type="xs:string" name="ricarica_bombole_sub"/>
+              <xs:element type="xs:string" name="sci_nautico"/>
+              <xs:element type="xs:string" name="sci_montano"/>
+              <xs:element type="xs:string" name="ormeggio"/>
+              <xs:element type="xs:string" name="altri_impianti_sportivi"/>
+              <xs:element type="xs:string" name="american_express"/>
+              <xs:element type="xs:string" name="carta_si"/>
+              <xs:element type="xs:string" name="diners"/>
+              <xs:element type="xs:string" name="eurocard_mastercard"/>
+              <xs:element type="xs:string" name="jcb"/>
+              <xs:element type="xs:string" name="visa"/>
+              <xs:element type="xs:string" name="bancomat_pos"/>
+              <xs:element type="xs:string" name="cirrus"/>
+              <xs:element type="xs:string" name="maestro"/>
+              <xs:element type="xs:string" name="altre_carte_credito"/>
+              <xs:element type="xs:string" name="codice_esercizio"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

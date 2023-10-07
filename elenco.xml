@@ -1,8 +1,8 @@
-</alberghi>
+<?xml version="1.0" encoding="UTF-8"?>
+<alberghi>
     <albergo>
         <comune>"DUINO-AURISINA"</comune>
         <provincia>"TRIESTE"</provincia>
-        <tipo>"Alberghi"</tipo>
         <categoria>"1 Stella *"</categoria>
         <tipologia>"Casa principale"</tipologia>
         <denominazione>"DAMA BIANCA"</denominazione>
@@ -104,7 +104,6 @@
     <albergo>
         <comune>"MUGGIA"</comune>
         <provincia>"TRIESTE"</provincia>
-        <tipo>"Alberghi"</tipo>
         <categoria>"4 Stelle ****"</categoria>
         <tipologia>"Casa principale"</tipologia>
         <denominazione>"HOTEL SAN ROCCO"</denominazione>
@@ -206,7 +205,6 @@
     <albergo>
         <comune>"TRIESTE"</comune>
         <provincia>"TRIESTE"</provincia>
-        <tipo>"Alberghi"</tipo>
         <categoria>"5 Stelle *****"</categoria>
         <tipologia>"Casa principale"</tipologia>
         <denominazione>"HOTEL GREIF MARIA THERESIA"</denominazione>
@@ -308,7 +306,6 @@
     <albergo>
         <comune>"DUINO-AURISINA"</comune>
         <provincia>"TRIESTE"</provincia>
-        <tipo>"Alberghi"</tipo>
         <categoria>"5 Stelle lusso *****"</categoria>
         <tipologia>"Casa principale"</tipologia>
         <denominazione>"HOTEL FALISIA, A LUXURY COLLECTION RESORT &amp; SPA"</denominazione>
