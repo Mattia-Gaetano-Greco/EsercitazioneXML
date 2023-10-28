@@ -2,7 +2,7 @@
 <alberghi>
     <albergo>
         <sovraclasse>
-            <classe nome="albergo"></classe>    
+            <classe nome="albergo1"></classe>    
         </sovraclasse>
         <comune>"DUINO-AURISINA"</comune>
         <provincia>"TRIESTE"</provincia>
@@ -106,7 +106,7 @@
 
     <albergo>
         <sovraclasse>
-            <classe nome="albergo"></classe>    
+            <classe nome="albergo2"></classe>    
         </sovraclasse>
         <comune>"MUGGIA"</comune>
         <provincia>"TRIESTE"</provincia>
@@ -210,7 +210,7 @@
 
     <albergo>
         <sovraclasse>
-            <classe nome="albergo"/>    
+            <classe nome="albergo3"/>    
         </sovraclasse>
         <comune>"TRIESTE"</comune>
         <provincia>"TRIESTE"</provincia>
@@ -314,7 +314,7 @@
 
     <albergo>
         <sovraclasse>
-            <classe nome="albergo"></classe>    
+            <classe nome="albergo4"></classe>    
         </sovraclasse>
         <comune>"DUINO-AURISINA"</comune>
         <provincia>"TRIESTE"</provincia>
