@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE alberghi [
 <!ELEMENT alberghi (albergo*)>
-<!ELEMENT albergo (comune, provincia, categoria, tipologia, denominazione, localita, frazione, indirizzo, cap, telefono, cellulare, fax, indirizzo_posta_elettronica, sito_internet, camere, posti_letto, bagni, periodo_apertura, centro_abitato, zona_aereoporto, zona_stazione_ffss, in_campagna, sul_mare, sul_lago, sul_fiume, zona_impianti_risalita, interesse_storico, villa, castello, accessibile, ascensore, ristorante, ristorante_convenzionato, ristorante_vegetariano, tavola_calda, bar, giochi_bambini, sala_lettura, sala_tv, sala_tv_comune, parco_giardino, animali_domestici, servizio_congressi, servizio_congressi_min, servizio_congressi_max, accettazione_gruppi, accesso_mezzi_pubblici, accesso_mezzi_privati, parcheggio_non_custodito, garage, trasporto_clienti, pulizia_calzature, lavatura_stiratura, baby_sitting, altri_impianti_servizi, custodia_valori_cassaforte, custodia_valori_cassetta_sicurezza, vasca_idromassaggio, doccia_idromassaggio, doccia_sauna, sauna_privata, palestra, impianti_termali, centro_benessere, spiaggia_riservata, discoteca, postazioni_internet, tv_satellitare, aria_condizionata, lingua_inglese, lingua_francese, lingua_spagnola, lingua_tedesca, altre_lingue, tennis, piscina_coperta, piscina_scoperta, golf, equitazione, vela, windsurf, sub, ricarica_bombole_sub, sci_nautico, sci_montano, ormeggio, altri_impianti_sportivi, american_express, carta_si, diners, eurocard_mastercard, jcb, visa, bancomat_pos, cirrus, maestro, altre_carte_credito, codice_esercizio)>
+<!ELEMENT albergo (sovraclasse, comune, provincia, categoria, tipologia, denominazione, localita, frazione, indirizzo, cap, telefono, cellulare, fax, indirizzo_posta_elettronica, sito_internet, camere, posti_letto, bagni, periodo_apertura, centro_abitato, zona_aereoporto, zona_stazione_ffss, in_campagna, sul_mare, sul_lago, sul_fiume, zona_impianti_risalita, interesse_storico, villa, castello, accessibile, ascensore, ristorante, ristorante_convenzionato, ristorante_vegetariano, tavola_calda, bar, giochi_bambini, sala_lettura, sala_tv, sala_tv_comune, parco_giardino, animali_domestici, servizio_congressi, servizio_congressi_min, servizio_congressi_max, accettazione_gruppi, accesso_mezzi_pubblici, accesso_mezzi_privati, parcheggio_non_custodito, garage, trasporto_clienti, pulizia_calzature, lavatura_stiratura, baby_sitting, altri_impianti_servizi, custodia_valori_cassaforte, custodia_valori_cassetta_sicurezza, vasca_idromassaggio, doccia_idromassaggio, doccia_sauna, sauna_privata, palestra, impianti_termali, centro_benessere, spiaggia_riservata, discoteca, postazioni_internet, tv_satellitare, aria_condizionata, lingua_inglese, lingua_francese, lingua_spagnola, lingua_tedesca, altre_lingue, tennis, piscina_coperta, piscina_scoperta, golf, equitazione, vela, windsurf, sub, ricarica_bombole_sub, sci_nautico, sci_montano, ormeggio, altri_impianti_sportivi, american_express, carta_si, diners, eurocard_mastercard, jcb, visa, bancomat_pos, cirrus, maestro, altre_carte_credito, codice_esercizio)>
+<!ELEMENT sovraclasse (classe)>
+<!ELEMENT classe (#PCDATA)>
 <!ELEMENT comune (#PCDATA)>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT categoria (#PCDATA)>
@@ -100,4 +102,6 @@
 <!ELEMENT maestro (#PCDATA)>
 <!ELEMENT altre_carte_credito (#PCDATA)>
 <!ELEMENT codice_esercizio (#PCDATA)>
+
+<!ATTLIST classe nome CDATA #REQUIRED>
 ]>

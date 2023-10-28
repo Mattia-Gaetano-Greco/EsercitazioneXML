@@ -5,6 +5,17 @@
         <xs:element name="albergo" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
+              <xs:element name="sovraclasse">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="classe">
+                      <xs:complexType>
+                        <xs:attribute name="nome" type="xs:string"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
               <xs:element type="xs:string" name="comune"/>
               <xs:element type="xs:string" name="provincia"/>
               <xs:element type="xs:string" name="categoria"/>

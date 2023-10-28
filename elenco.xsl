@@ -10,11 +10,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <tr>
                         <th>Provincia</th>
                         <th>Comune</th>
+                        <th>Nome classe</th>
                     </tr>
                     <xsl:for-each select="alberghi/albergo">
                         <tr>
                             <td><xsl:value-of select="provincia"/></td>
                             <td><xsl:value-of select="comune"/></td>
+                            <td><xsl:value-of select="sovraclasse/classe/@nome"/></td>
                         </tr>
                     </xsl:for-each>
                 </table>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alberghi>
     <albergo>
+        <sovraclasse>
+            <classe nome="albergo"></classe>    
+        </sovraclasse>
         <comune>"DUINO-AURISINA"</comune>
         <provincia>"TRIESTE"</provincia>
         <categoria>"1 Stella *"</categoria>
@@ -102,6 +105,9 @@
     </albergo>
 
     <albergo>
+        <sovraclasse>
+            <classe nome="albergo"></classe>    
+        </sovraclasse>
         <comune>"MUGGIA"</comune>
         <provincia>"TRIESTE"</provincia>
         <categoria>"4 Stelle ****"</categoria>
@@ -203,6 +209,9 @@
     </albergo>
 
     <albergo>
+        <sovraclasse>
+            <classe nome="albergo"/>    
+        </sovraclasse>
         <comune>"TRIESTE"</comune>
         <provincia>"TRIESTE"</provincia>
         <categoria>"5 Stelle *****"</categoria>
@@ -304,6 +313,9 @@
     </albergo>
 
     <albergo>
+        <sovraclasse>
+            <classe nome="albergo"></classe>    
+        </sovraclasse>
         <comune>"DUINO-AURISINA"</comune>
         <provincia>"TRIESTE"</provincia>
         <categoria>"5 Stelle lusso *****"</categoria>
